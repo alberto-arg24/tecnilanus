@@ -1,0 +1,426 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Rubik', serif;
+}
+
+
+/*ATRIBUTOS DEL MENU SUPERIOR*/
+
+.telon{
+  width:100%;
+  height: 85px;
+  background: #001040; 
+}
+
+
+.menu{
+  font-family: 'Rubik', serif;
+  display: inline-block;
+  color: #ffffff;
+  width: 100%;
+  }
+
+.menusuperior{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+}
+
+nav {
+width: 100%;
+background: #001040;
+}
+
+nav button{
+  background:#001040;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  vertical-align: top;
+  margin: 30px 0 0 0;
+}
+
+button:hover{
+  color: red;
+  transition: 1s;
+}
+
+
+.redessociales{
+  display:inline-block;
+  color: #ffffff;
+  background-color: #100040;
+  color: #ffffff;
+  display:inline-block;
+  text-transform:uppercase;
+  font-family: 'Rubik', serif;
+  font-size: 15px;
+  width: 100%;
+}
+
+
+
+/*REDES SOCIALES DIRECCION*/
+
+.redessociales{
+  width: 100%;
+}
+
+.redessociales ul{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.redessociales ul li{
+  display: inline-block;
+  color: #ffffff;
+}
+
+.redessalto{
+  vertical-align: middle;
+}
+
+.imagenes{
+  width: 100%;
+}
+
+
+/*wall en div */
+
+.walle{
+  background: #ffffff;
+  width: 100%;
+  height: 500px;
+ 
+}
+
+.botones{
+  text-align: center;
+  border: none;
+}
+
+
+.botones button{
+  margin: 15px 0 0 0;
+  padding: 5px;
+  border: none;
+  font-size: px;
+  background: #DDDDDD;
+}
+
+
+.botones button:hover{
+  background: #777777;
+  color: #ffffff;
+}
+
+#bot1{
+  background: #777777;
+}
+
+.pantalla{
+  width: 90%;
+  border: 10px solid #100040;
+  margin-left: 40px;
+  margin-top: 40px;
+  box-shadow: 10px 10px 8px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desde aqui CSS de VIDEO-VIGILANCIA*/
+
+
+.contenedor{
+  width: 100%;
+  font-family: 'Rubik', Light;
+}
+
+
+
+.columna1{
+  padding: 1em;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+  width: auto;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.columna1 h1{
+  background-color: #001040;
+  font-size: 50px;
+  color:#ffffff;
+}
+
+
+.columna1 h1:last-child {
+  color:chartreuse;
+  font-size: 5px;
+}
+
+.columna1 h2{
+   font-size: 30px;
+   margin: 5px 0 0 0;
+}
+
+.columna2{
+  vertical-align: top;
+  font-family: 'Rubik', serif;
+  margin: 0 10px 5px 20px;
+  color:#100040;
+  width:30%;
+  display:inline-block;
+}
+
+
+.columna2 ul{
+font-size: 16px;
+padding: 1em;
+}
+
+
+.columna2 ul li{
+  padding: 0.3em;
+  list-style-type:square;
+}
+
+
+.columna22{
+  vertical-align: top;
+  font-family: 'Rubik', serif;
+  margin: 25px 10px 5px 20px;
+  color:#100040;
+  width:70%;
+  display:inline-block;
+}
+
+
+
+
+.columna3{
+  width: 30%;
+  display:inline-block;
+  margin-top: 20px;
+}
+
+.item{
+  list-style-type: none;
+  padding: 0 0 0 20px;
+  line-height: 150%;
+}
+
+.imagen{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0 0 0;
+  width: 30%;
+}
+
+
+.tablita{
+ font-size: 15px;
+ text-align: center;
+ font-weight: lighter;
+}
+
+.tablita td{
+color: #001040;
+padding: 3px;
+}
+
+.redes2 {
+  margin: 10px 0 0 95px;
+  font-size: 20px;
+}
+
+.redes2 ul{
+  font-weight:normal;
+}
+
+.redes2 ul li{
+  display: inline-block;
+}
+
+.redes2 ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color:#001040;
+  padding: 5px;
+}
+
+
+
+.redes2 ul li a:hover{
+  color:#777777;
+}
+
+
+/*BOTON VISITA TECNICA*/
+
+.boton {
+margin: 5px;
+font-size: 13px;
+cursor: pointer;
+border: none;
+background: orange;
+padding: 10px 5px;
+border-radius: 8px;
+color:#ffffff;
+font-weight:bold;
+box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+}
+
+.boton:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+
+
+/*CSS CONTACTOS*/
+
+.columna22 form {
+font-size: 16px;
+display: block;
+}
+
+
+
+.columna22 form label, legend{
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+  
+
+  .input-padron{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 5px 2px;
+    width: 40%;
+}
+
+.checkbox{
+  margin:20px 0;
+}
+
+
+.columna22 button{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+.piedepagina{
+  font-size: 15px;
+  font-weight: normal;
+  background: #001040;
+  color: #ffffff;
+  width: 100%;
+}
+
+
+.piedepagina a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+
+
+.foot1{
+  width: 16%;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px 0 0 10px;
+}
+
+.foot1 h4, .foot2 h4, .foot3 h4{
+  font-weight: bold;
+}
+
+
+.foot1 ul li, .foot2 ul li, .foot3 ul li{
+  margin: 10px;
+}
+
+.espaciofinal{
+  width: 100%;
+  height: 40px;
+}
+
+.foot2{
+  
+  width: 15%;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px 0 0 10px;
+  vertical-align: top;
+  color:#ffffff;
+}
+
+
+.direccionfinal{
+  vertical-align: top;
+  margin: 20px;
+  display: block;
+}
+
+
+.foot3{
+  font-family: 'Rubik', serif;
+  width: 20%;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px 0 0 10px;
+  vertical-align: top;
+}
+
+.foot3 ul li{
+  display: block
+}
+
+.foot3 ul li a{
+  font-size: 15px;
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.foot3 ul li a:hover{
+  color: #ffffff;
+}
+
+.foot33{
+  margin: 10px 0 0 5px;
+  display: block;
+}
+
+
+.foot33 ul li{
+  display: block;
+  margin: 5px;
+}
+
+
+
+
