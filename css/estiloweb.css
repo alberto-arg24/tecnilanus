@@ -6,6 +6,9 @@ body{
   font-family: 'Rubik', serif;
 }
 
+.logo2{
+  display: none;
+}
 
 
 .contenedorglobal{
@@ -148,9 +151,8 @@ button:hover{
 .pantalla{
   width: 90%;
   border: 10px solid #100040;
-  margin-left: 40px;
-  margin-top: 40px;
   box-shadow: 10px 10px 8px #000000;
+  margin: 20px;
 }
 
 
@@ -215,33 +217,28 @@ button:hover{
 
 .columna1 h1{
   background-color: #001040;
-  font-size: 50px;
+  font-size: 35px;
   color:#ffffff;
 }
 
 
-.columna1 h1:last-child {
-  color:chartreuse;
-  font-size: 5px;
-}
-
 .columna1 h2{
-   font-size: 30px;
+   font-size: 25px;
    margin: 5px 0 0 0;
 }
 
 .columna2{
   vertical-align: top;
   font-family: 'Rubik', serif;
-  margin: 0 10px 5px 20px;
+  margin: 0 5px 5px 20px;
   color:#100040;
-  width:30%;
+  width:auto;
   display:inline-block;
 }
 
 
 .columna2 ul{
-font-size: 16px;
+font-size: 14px;
 padding: 1em;
 }
 
@@ -265,7 +262,7 @@ padding: 1em;
 
 
 .columna3{
-  width: 30%;
+  width: auto;
   display:inline-block;
   margin-top: 20px;
 }
@@ -285,7 +282,7 @@ padding: 1em;
 
 
 .tablita{
- font-size: 15px;
+ font-size: 12px;
  text-align: center;
  font-weight: lighter;
 }
@@ -481,12 +478,77 @@ display: block;
 
 
 
-@media screen and (max-width >= 800 ){
-  .redessociales{
-    background: burlywood;
-  
-  }
+
+
+@media screen and (max-width: 650px){
+    
+    .menu{
+      display: none;
+    }
+
+   
+    .logo{
+            display: block;
+    }
+
+    .logo2{
+      width: 100%;
+      display: inline-block;
+      background: #001040;
+      text-align: center;
+    }
+
+
+    .menufijo{
+      display: none;
+     
+    }
+
+    .telon{
+      display: none;
+    }
+    
+
+    .columna1{
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
+
+    .columna2{
+      width: 100%;
+      text-align: center;
+    }
+
+    .columna2 ul{
+      text-align: left;
+    }
+
+
+
+
+      .columna3{
+        width: 100%;
+      text-align: center;
+      }
+
+      .tablita{
+        width: 100%;
+        text-align: center;     
+        
+       }
+
+      .redes2{
+        margin: 0px;
+      } 
+
+
 }
+
+
+
+
+
 
 
 
