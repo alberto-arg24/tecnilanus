@@ -353,7 +353,7 @@ display: block;
 .columna22 form label, legend{
   display: block;
   font-size: 16px;
-  margin: 10px 0 10px 0;
+  margin: 15px 0 10px 0;
 }
   
 
@@ -361,7 +361,7 @@ display: block;
     display: block;
     margin: 0 0 20px 0;
     padding: 5px 2px;
-    width: 40%;
+    width: 50%;
 }
 
 .checkbox{
@@ -544,6 +544,53 @@ display: block;
       } 
 
 
+      .columna22 form {
+        font-size: 16px;
+        display: block;
+        }
+        
+        
+        
+               
+          .input-padron{
+            display: block;
+            margin: 0 0 20px 0;
+            padding: 5px 2px;
+            width: 100%;
+        }
+
+        .piedepagina{
+          width: auto;
+          text-align: center;
+        }
+
+
+
+        .foot1{
+          width: 100%;
+          display: block;        
+          text-align: center;
+          
+          }
+      
+        .foot2{
+          width: 100%;
+          display: block;
+          text-align: center;
+          }
+      
+          .foot2 img{
+            width: 20%;
+          }
+
+
+
+        .foot3{
+          width: 100%;
+          display: block;
+          text-align: center;
+          }
+      
 }
 
 
