@@ -549,7 +549,11 @@ display: block;
         display: block;
         }
         
-        
+        .columna22 form label, legend{
+          display: block;
+          font-size: 16px;
+          margin: 20px;
+                }
         
                
           .input-padron{
