@@ -474,6 +474,15 @@ display: block;
   margin: 5px;
 }
 
+@media screen and (width >= 800 ){
+  .redessociales{
+    background: burlywood;
+  }
+}
+
+
+
+
 
 @media screen and (width <= 400px){
   /*MOVILES*/
@@ -495,5 +504,7 @@ display: block;
 
 @media (400px <= width <= 800px) {
    /*TABLETS*/
-he
+
 }
+
+
